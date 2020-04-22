@@ -165,8 +165,13 @@ ul {
 }
 
 .section {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.section--dark {
+  background-color: #373a3d;
+  color: #fff;
 }
 
 .section__title {
@@ -244,5 +249,15 @@ ul {
   line-height: 2.5;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.services-2 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services-2 .content {
+  width: 50%;
 }
 /*# sourceMappingURL=main.css.map */

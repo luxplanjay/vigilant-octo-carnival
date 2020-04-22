@@ -1,6 +1,11 @@
 .section {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.section--dark {
+  background-color: #373a3d;
+  color: #fff;
 }
 
 .section__title {
