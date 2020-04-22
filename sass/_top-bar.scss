@@ -1,0 +1,52 @@
+.top-bar {
+  background-color: #303b41;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.top-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #212121;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts li:not(:last-child) {
+  margin-right: 24px;
+}
+
+.contacts svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  fill: #fff;
+}

@@ -1,0 +1,22 @@
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-list li {
+  flex: 23% 0 0;
+}
+
+.feature-list li::before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: var(--blue);
+  color: var(--white);
+  content: "Иконка";
+  border-radius: 50%;
+}

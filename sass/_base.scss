@@ -1,0 +1,42 @@
+:root {
+  --black: #212121;
+  --grey: #757575;
+  --red: #ff5252;
+  --blue: #2196f3;
+  --white: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.page {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,22 @@
+.service-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-list li {
+  position: relative;
+  flex: 32% 0 0;
+}
+
+.service-list h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  line-height: 2.5;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}

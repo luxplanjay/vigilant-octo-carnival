@@ -1,0 +1,248 @@
+@charset "UTF-8";
+:root {
+  --black: #212121;
+  --grey: #757575;
+  --red: #ff5252;
+  --blue: #2196f3;
+  --white: #ffffff;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.page {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-bar {
+  background-color: #303b41;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.top-bar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #212121;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts li:not(:last-child) {
+  margin-right: 24px;
+}
+
+.contacts svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  fill: #fff;
+}
+
+.page-header {
+  -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.page-header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-logo {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--black);
+}
+
+.site-logo::first-letter {
+  color: var(--blue);
+}
+
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.site-nav li.current > a {
+  color: var(--blue);
+}
+
+.site-nav li:not(:last-child) {
+  margin-right: 24px;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 24px 0;
+  text-decoration: none;
+  font-weight: 500;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--blue);
+}
+
+.section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.section__title {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+
+.section__title::after {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  height: 3px;
+  width: 300px;
+  background-color: var(--blue);
+  content: "";
+}
+
+.feature-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feature-list li {
+  -webkit-box-flex: 23%;
+      -ms-flex: 23% 0 0px;
+          flex: 23% 0 0;
+}
+
+.feature-list li::before {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: var(--blue);
+  color: var(--white);
+  content: "Иконка";
+  border-radius: 50%;
+}
+
+.service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-list li {
+  position: relative;
+  -webkit-box-flex: 32%;
+      -ms-flex: 32% 0 0px;
+          flex: 32% 0 0;
+}
+
+.service-list h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  line-height: 2.5;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/*# sourceMappingURL=main.css.map */
