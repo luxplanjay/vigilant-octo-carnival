@@ -3,20 +3,31 @@
   justify-content: space-between;
 }
 
-.feature-list li {
+.feature-list__item {
   flex: 23% 0 0;
 }
 
-.feature-list li::before {
+.feature-list__item::before {
   display: block;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  background-color: var(--blue);
-  color: var(--white);
-  content: "Иконка";
-  border-radius: 50%;
+  width: 100%;
+  height: 140px;
+  content: "";
+  background-position: center;
+  background-size: contain;
+}
+
+.feature-list__item.icon-1::before {
+  background-image: url("http://trendytheme.net/demo/matrox/assets/img/seo/service-2.jpg");
+}
+
+.feature-list__item.icon-2::before {
+  background-image: url("http://trendytheme.net/demo/matrox/assets/img/seo/service-1.jpg");
+}
+
+.feature-list__item.icon-3::before {
+  background-image: url("http://trendytheme.net/demo/matrox/assets/img/seo/service-4.jpg");
+}
+
+.feature-list__item.icon-4::before {
+  background-image: url("http://trendytheme.net/demo/matrox/assets/img/seo/service-3.jpg");
 }

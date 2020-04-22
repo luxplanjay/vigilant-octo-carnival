@@ -4,4 +4,34 @@
 
 .services-2 .content {
   width: 50%;
+  margin-right: 48px;
+}
+
+.services-2 .section__title {
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.services-2 p {
+  margin-bottom: 32px;
+}
+
+.services-2__list {
+  margin-bottom: 48px;
+}
+
+.services-2__list li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.services-2__list li::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url("https://image.flaticon.com/icons/svg/443/443138.svg");
+  background-size: contain;
+  content: "";
 }

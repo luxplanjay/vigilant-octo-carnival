@@ -5,60 +5,314 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="page">
-    <div class="top-bar">
-      <div class="container">
-        <ul class="social-links">
-          <li><a href="">1</a></li>
-          <li><a href="">2</a></li>
-          <li><a href="">3</a></li>
-          <li><a href="">4</a></li>
-          <li><a href="">5</a></li>
-        </ul>
-
-        <ul class="contacts">
-          <li>
-            <a href="">
-              <svg>
-                <use href="./images/email.svg#Capa_1"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <svg>
-                <use href="./images/call.svg#Capa_1"></use>
-              </svg>
-              +023 123 456 78</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-
     <header class="page-header">
       <div class="container">
         <nav class="page-header__nav">
-          <a href="/" class="site-logo">Веб-студия</a>
+          <a href="/" class="site-logo">
+            <img src="./images/android.svg" width="36" height="36" alt="" />
+          </a>
 
           <ul class="site-nav">
-            <li class="current"><a href="">Главная</a></li>
+            <li class="current"><a href="">Студия</a></li>
             <li><a href="">Портфолио</a></li>
-            <li><a href="">Блог</a></li>
-            <li><a href="">О нас</a></li>
             <li><a href="">Контакты</a></li>
+          </ul>
+
+          <ul class="contacts">
+            <li>
+              <a href="">
+                <svg>
+                  <use href="./images/email.svg#Capa_1"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg>
+                  <use href="./images/call.svg#Capa_1"></use>
+                </svg>
+                +023 123 456 78</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <div class="slider"></div>
+    <section class="section section--dark services-2">
+      <div class="container">
+        <div class="content">
+          <h3 class="section__title">
+            Мы предлагаем полный спектр услуг цифрового маркетинга!
+          </h3>
+          <p>
+            В рамках спецификации современных стандартов, реплицированные с
+            зарубежных источников, современные исследования могут быть
+            обнародованы. Внезапно, стремящиеся вытеснить традиционное
+            производство.
+          </p>
+
+          <ul class="services-2__list">
+            <li>We deliver Top Rankings.</li>
+            <li>High customer retention rate.</li>
+            <li>We always return e-mails and calls within one business day.</li>
+          </ul>
+
+          <a href="" class="button">Свяжитесь с нами</a>
+        </div>
+
+        <img
+          src="http://trendytheme.net/demo/matrox/assets/img/seo/seo-info-light.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="section features">
+      <div class="container">
+        <!-- <h2 class="section__title">Наши преимущества</h2> -->
+
+        <ul class="feature-list">
+          <li class="feature-list__item icon-1">
+            <h3>Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="feature-list__item icon-2">
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="feature-list__item icon-3">
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="feature-list__item icon-4">
+            <h3>Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section team">
+      <div class="container">
+        <h2 class="section__title">Наша команда</h2>
+
+        <ul class="team__list">
+          <li>
+            <img
+              class="team__photo"
+              src="http://trendytheme.net/demo/matrox/assets/img/team/team-4.jpg"
+              alt=""
+            />
+
+            <div class="team__content">
+              <h3 class="team__name">John Smith</h3>
+              <p class="team__occupation">Product Designer</p>
+
+              <ul class="social-links">
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/instagram.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/twitter.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/linkedin.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/facebook.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <img
+              class="team__photo"
+              src="http://trendytheme.net/demo/matrox/assets/img/team/team-1.jpg"
+              alt=""
+            />
+
+            <div class="team__content">
+              <h3 class="team__name">martin Doe</h3>
+              <p class="team__occupation">Frontend Developer</p>
+
+              <ul class="social-links">
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/instagram.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/twitter.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/linkedin.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/facebook.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <img
+              class="team__photo"
+              src="http://trendytheme.net/demo/matrox/assets/img/team/team-3.jpg"
+              alt=""
+            />
+
+            <div class="team__content">
+              <h3 class="team__name">Robert Jakis</h3>
+              <p class="team__occupation">Marketing</p>
+
+              <ul class="social-links">
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/instagram.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/twitter.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/linkedin.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/facebook.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <img
+              class="team__photo"
+              src="http://trendytheme.net/demo/matrox/assets/img/team/team-2.jpg"
+              alt=""
+            />
+
+            <div class="team__content">
+              <h3 class="team__name">Ketty Swizler</h3>
+              <p class="team__occupation">UI Designer</p>
+
+              <ul class="social-links">
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/instagram.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/twitter.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/linkedin.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg class="social-links__icon">
+                      <use href="./images/social/facebook.svg#icon"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section clients">
+      <div class="container">
+        <h3 class="section__title">Постоянные клиенты</h3>
+
+        <ul class="client-list">
+          <li><img src="./images/atlassian.svg" alt="" /></li>
+          <li><img src="./images/atlassian.svg" alt="" /></li>
+          <li><img src="./images/atlassian.svg" alt="" /></li>
+          <li><img src="./images/atlassian.svg" alt="" /></li>
+          <li><img src="./images/atlassian.svg" alt="" /></li>
+          <li><img src="./images/atlassian.svg" alt="" /></li>
+        </ul>
+      </div>
+    </section>
+
+    <!--
+
 
     <section class="section services">
       <div class="container">
@@ -90,65 +344,8 @@
       </div>
     </section>
 
-    <section class="section section--dark features">
-      <div class="container">
-        <h2 class="section__title">Наши преимущества</h2>
 
-        <ul class="feature-list">
-          <li>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt
-              dolorem fugit amet iste minima similique maxime magnam
-            </p>
-          </li>
-          <li>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt
-              dolorem fugit amet iste minima similique maxime magnam
-            </p>
-          </li>
-          <li>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt
-              dolorem fugit amet iste minima similique maxime magnam
-            </p>
-          </li>
-          <li>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt
-              dolorem fugit amet iste minima similique maxime magnam
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
 
-    <section class="section">
-      <h3 class="section__title">Стек технологий</h3>
-    </section>
-
-    <section class="section services-2 section--dark">
-      <div class="container">
-        <div class="content">
-          <h3>We Offer a Full Range of Digital Marketing Services!</h3>
-          <p>
-            Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed
-            ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at
-            vestibulum purus, sit amet viverra diam.
-          </p>
-
-          <ul>
-            <li>We deliver Top Rankings.</li>
-            <li>High customer retention rate.</li>
-            <li>We always return e-mails and calls within one business day.</li>
-          </ul>
-        </div>
-
-        <img
-          src="http://trendytheme.net/demo/matrox/assets/img/seo/seo-info-light.png"
-          alt=""
-        />
-      </div>
-    </section>
+    -->
   </body>
 </html>

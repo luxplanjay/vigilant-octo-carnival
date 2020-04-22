@@ -1,6 +1,7 @@
 .section {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #ececec;
 }
 
 .section--dark {
@@ -11,18 +12,19 @@
 .section__title {
   margin: 0;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 40px;
   margin-bottom: 48px;
+  line-height: 1.3;
 }
 
-.section__title::after {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  height: 3px;
-  width: 300px;
-  background-color: var(--blue);
-  content: "";
-}
+// .section__title::after {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 16px;
+//   height: 3px;
+//   width: 300px;
+//   background-color: var(--blue);
+//   content: "";
+// }
