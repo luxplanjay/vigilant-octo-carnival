@@ -5,10 +5,10 @@
 }
 
 .client-list li {
-  flex: calc(100% / 3 - 16px) 0 0;
+  flex: calc(100% / 6 - 16px) 0 0;
   border: 1px solid #eee;
-  height: 150px;
-  padding: 48px;
+  height: 100px;
+  padding: 16px;
 
   transition: box-shadow 0.3s;
 }
