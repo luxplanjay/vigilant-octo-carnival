@@ -1,0 +1,105 @@
+.portfolio-filter {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.portfolio-filter a {
+  display: block;
+  color: #202020;
+  background-color: #eee;
+  padding: 7px 22px;
+  margin: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.portfolio-filter a:hover,
+.portfolio-filter a.active {
+  background-color: #03a9f4;
+  color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-filter a.active {
+  background-color: #03a9f4;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-set__item {
+  width: calc(100% / 3 - 32px);
+  margin: 16px;
+  transition: box-shadow 0.3s;
+}
+
+.card-set__item:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-set__item .meta {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.card-set__item .meta h3 {
+  margin: 0;
+  color: #202020;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.card-set__item .meta p {
+  margin: 0;
+  color: #999;
+}
+
+.card-set__item .thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-set__item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(103, 58, 183, 0.9);
+  opacity: 0;
+
+  transition: all 250ms cubic-bezier(0.39, 0.575, 0.56499, 1);
+}
+
+.card-set__item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-set__item .overlay__icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
